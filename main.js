@@ -21,4 +21,3 @@ function presentarse(){
 
 }
 presentarse();
-console.log("hola");
