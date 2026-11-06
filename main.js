@@ -1,7 +1,3 @@
-``
-
-``
-
 const usuario = {
     nombre: "Juan",
     apellido: "Miranda",
@@ -12,3 +8,17 @@ const usuario = {
         pais: "Colombia"
     } 
 }
+
+const desestructura={
+    ciudad,
+    pais
+} = usuario.direccion;
+
+function presentarse(){
+    console.log("Hola, soy "  + usuario.nombre);
+    console.log("Tengo " + usuario.edad);
+    console.log("vivo en " + usuario.direccion.ciudad + ", " + usuario.direccion.pais);
+
+}
+presentarse();
+console.log("hola");
